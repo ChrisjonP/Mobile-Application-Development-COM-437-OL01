@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="chrisAndcompanies.reimburseme25.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:textSize="19dp"
+        android:text="Welcome to reimburse me" />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:textColor="@android:color/white"
+        android:layout_height="128dp"
+        android:gravity="center"
+        android:text="Introducing our cutting-edge reimbursement app, a seamless and user-friendly solution designed to simplify and expedite the often cumbersome process of getting reimbursed for expenses."
+        android:textSize="19dp" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Get Started today !"
+        android:textAppearance="?android:textAppearanceLarge" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:text="We have helped many employees get the financial reimbursement they deserve !"
+        />
+
+</LinearLayout>
